@@ -14,7 +14,7 @@
 </header>
 <body>
     <div class="contenedor">
-        <h1>SUMAR</h1>
+        <h1>SISTEMA DE PASO</h1>
         <table>
             <tr>
                 <td>26</td>

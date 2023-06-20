@@ -1,0 +1,96 @@
+.contenedor
+{
+    width: 600px; 
+    background: white;
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: 5px;
+    border-radius: 15px;
+}
+
+.contenedor h1
+{
+    text-align: center;
+    color: #5e7b9a;
+}
+
+.contenedor table
+{
+    margin-top: 30px; /* margen desde  arriba */
+    margin-left:auto;   /* centrar tabla */
+    margin-right:auto;  /* centrar tabla */
+    text-align: center;
+    font-size: 24px;
+}
+
+.contiene
+{
+    width: 30px;
+    background-color: #99AFC7;
+    padding: 30px;
+}
+
+.no-contiene
+{
+    width: 30px;
+    background-color: #DFE8F1;
+    padding: 10px;
+}
+
+.contenedor-alternativa
+{
+    display:flex; /*colocar los DIV uno al lado del otro*/
+    justify-content: center; /*centrar los DIV en el contenedor*/
+}
+
+.caja
+{
+    width: 30px; 
+    background: #E7EDDB;
+    padding: 15px;
+    text-align: center;
+    font-size: 24px;
+    color: #687F4D;
+    background-color: #DDE8CF;
+    border: 1px solid #687F4D;
+    cursor: pointer;
+    margin: 2px;
+}
+
+.resultado
+{
+    background-color: #99AFC7; 
+    color: #DFE8F1; 
+    text-align: center; 
+    padding: 15px;
+    border-radius: 10px;
+}
+
+/* estilo cronometro */
+* {
+    transition: all 0.3s;
+}
+
+.marco {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-family: calibri;
+    color: black;  
+}
+
+.botones-contenedor {
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn {
+    cursor: pointer;
+    display: inline-block;
+    font-size: 60%;
+    padding: 20px;
+}
+
+
+
